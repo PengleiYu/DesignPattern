@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DesignPattern.iml" filepath="$PROJECT_DIR$/.idea/modules/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ModelB.iml" filepath="$PROJECT_DIR$/.idea/modules/ModelB.iml" group="ModelB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ModelB/ModelB_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ModelB/ModelB_main.iml" group="ModelB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ModelB/ModelB_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ModelB/ModelB_test.iml" group="ModelB" />
+    </modules>
+  </component>
+</project>
