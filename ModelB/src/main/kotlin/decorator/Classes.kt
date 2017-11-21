@@ -1,4 +1,4 @@
-package Decorator
+package decorator
 
 import java.util.*
 

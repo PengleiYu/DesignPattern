@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c84897-5d2c-4e15-b0a8-35cda6299a50" name="Default" comment="" />
+    <list default="true" id="21c84897-5d2c-4e15-b0a8-35cda6299a50" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ModelB/src/main/kotlin/Composite/Classes.kt" afterPath="$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -34,7 +37,7 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/Classes.kt">
+            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="840">
                   <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
@@ -43,14 +46,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CustomerAOP.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerAOP.kt">
+          <file leaf-file-name="CustomerAOP.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
                   <folding>
                     <element signature="e#19#71#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -60,7 +73,7 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="CustomerIO.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerIO.kt">
+            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerIO.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="600">
                   <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
@@ -668,6 +681,8 @@
         <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/temp/Classes.kt" />
         <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/Classes.kt" />
         <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerAOP.kt" />
+        <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt" />
+        <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt" />
       </list>
     </option>
   </component>
@@ -782,6 +797,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="composite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -903,7 +952,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Decorator.CustomerAOPKt">
+  <component name="RunManager" selected="Kotlin.decorator.CustomerAOPKt">
     <configuration default="false" name="HelloKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="HelloKt" />
@@ -917,9 +966,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Composite.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="composite.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Composite.ClassesKt" />
+      <option name="MAIN_CLASS_NAME" value="composite.ClassesKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -930,9 +979,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Decorator.temp.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="decorator.temp.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Decorator.temp.ClassesKt" />
+      <option name="MAIN_CLASS_NAME" value="decorator.temp.ClassesKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -943,9 +992,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Decorator.CustomerIOKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="decorator.CustomerIOKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Decorator.CustomerIOKt" />
+      <option name="MAIN_CLASS_NAME" value="decorator.CustomerIOKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -956,9 +1005,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Decorator.CustomerAOPKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="decorator.CustomerAOPKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Decorator.CustomerAOPKt" />
+      <option name="MAIN_CLASS_NAME" value="decorator.CustomerAOPKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -1175,17 +1224,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.HelloKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.Composite.ClassesKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.Decorator.temp.ClassesKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.Decorator.CustomerIOKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.Decorator.CustomerAOPKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.composite.ClassesKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.decorator.temp.ClassesKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.decorator.CustomerIOKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.decorator.CustomerAOPKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.Decorator.CustomerAOPKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.Decorator.CustomerIOKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.Decorator.temp.ClassesKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.Composite.ClassesKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.decorator.CustomerAOPKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.decorator.CustomerIOKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.decorator.temp.ClassesKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.composite.ClassesKt" />
         <item index="4" class="java.lang.String" itemvalue="Kotlin.HelloKt" />
       </list>
     </recent_temporary>
@@ -1253,7 +1302,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/Classes.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
@@ -1269,7 +1318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerAOP.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
@@ -1279,7 +1328,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerIO.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerIO.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1298,7 +1347,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Composite/Classes.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1350,14 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Composite/Classes.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,7 +1458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/Classes.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
@@ -1425,7 +1466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerIO.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerIO.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
@@ -1433,13 +1474,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerAOP.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding>
             <element signature="e#19#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

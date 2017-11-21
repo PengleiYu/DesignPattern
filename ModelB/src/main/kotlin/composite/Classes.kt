@@ -1,4 +1,4 @@
-package Composite
+package composite
 
 /**
  * 组合模式
