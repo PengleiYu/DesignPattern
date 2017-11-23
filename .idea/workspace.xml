@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c84897-5d2c-4e15-b0a8-35cda6299a50" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ModelB/src/main/kotlin/Composite/Classes.kt" afterPath="$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/Classes.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/DynamicProxy.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,42 +34,62 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.71682">
+    <splitter split-orientation="vertical" split-proportion="0.44975013">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="840">
-                  <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CustomerAOP.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#19#71#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.5">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="765">
+                      <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="CustomerAOP.kt" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+                      <folding>
+                        <element signature="e#19#71#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="Classes.kt" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/Classes.kt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="235">
+                      <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+                      <folding>
+                        <element signature="e#15#120#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="DynamicProxy.kt" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/DynamicProxy.kt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="90">
+                      <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -78,19 +99,6 @@
                 <state relative-caret-position="600">
                   <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BufferedOutputStream.java" pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/src.zip!/java/io/BufferedOutputStream.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#1188#1189#0" expanded="true" />
-                    <element signature="e#1219#1220#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -683,6 +691,8 @@
         <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/Decorator/CustomerAOP.kt" />
         <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerAOP.kt" />
         <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt" />
+        <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/Classes.kt" />
+        <option value="$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/DynamicProxy.kt" />
       </list>
     </option>
   </component>
@@ -772,6 +782,36 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1341,8 +1381,7 @@
         <state relative-caret-position="1185">
           <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding>
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#0#4122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1444,8 +1483,7 @@
         <state relative-caret-position="810">
           <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
           <folding>
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#0#4122#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1458,18 +1496,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerIO.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="-108">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1484,10 +1514,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/composite/Classes.kt">
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/CustomerIO.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="600">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/decorator/Classes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/Classes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#15#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ModelB/src/main/kotlin/proxy/DynamicProxy.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
